@@ -16,7 +16,7 @@
             <div id="footer">
                 <p>
                     <a href="${pageContext.request.contextPath}/index">一覧</a>
-                    <a href="${pagecontext.request.contextPath}/new">新規投稿</a>
+                    <a href="${pageContext.request.contextPath}/new">新規投稿</a>
                 </p>
             </div>
         </div>
