@@ -8,5 +8,12 @@
             <c:import url="_form.jsp" />
         </form>
 
+        <br />
+        <form method="POST" action="${pageContext.request.contextPath}/destroy">
+            <input type="hidden" name="_token" value="${_token}" />
+            <button type="submit">削除</button>
+        </form>
+
+
     </c:param>
 </c:import>
